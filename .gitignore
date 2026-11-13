@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Databases and local data
+*.db
+*.sqlite3
+data/
+datasets/
+
+# AI models and weights
+models/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Node.js (for future frontend projects)
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Docker
+.docker/
+
+# Temporary files
+tmp/
+temp/
